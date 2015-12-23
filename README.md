@@ -8,6 +8,10 @@ for more details: [hirain](blog.hirain.win)
 
 ## Feature
 
+* Swipe to dismiss.
+* Support to using the `UI_APPEARANCE_SELECTOR` to customize the appearance. 
+* Support both the iPhone and iPad, and also support both the portrait mode and landscape mode.
+
 ## How To Use 
 ```Objective-C
 
@@ -47,7 +51,7 @@ for more details: [hirain](blog.hirain.win)
 
 ## TODO
 
-* support for Cocoapod
+* Support for Cocoapod
 
 
 
