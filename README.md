@@ -9,7 +9,7 @@ for more details: [hirain](blog.hirain.win)
 ## Feature
 
 ## How To Use 
-```
+```Objective-C
 
  NSMutableArray *items = [[NSMutableArray alloc] initWithCapacity:5];
     
@@ -64,14 +64,16 @@ for more details: [hirain](blog.hirain.win)
 
 ## Support
 
-* if you have any questions, please [Issues](https://github.com/red3/HHAttachmentSheetView/issues/new)  me, thank you. :) 
+* If you have any questions, please [Issues](https://github.com/red3/HHAttachmentSheetView/issues/new)  me, thank you. :) 
 * Blog: [hirain](blog.hirain.win)
-* buy me a cup of coffee? 👇
+* Buy me a cup of coffee? 👇
 
-![Alipay](http://photo-coder.b0.upaiyun.com/img/alipay.png)
+<p align="left" >
+<img src="http://photo-coder.b0.upaiyun.com/img/alipay.png" width="276" height="360"/>
+</p>
 
 
 
 ## License
+`HHAttachmentSheetView ` is available under the MIT license. See the [LICENSE](http://opensource.org/licenses/MIT) file for more info.
 
-[MIT license](http://opensource.org/licenses/MIT)
