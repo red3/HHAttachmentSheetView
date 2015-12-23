@@ -4,7 +4,7 @@ HHAttachmentSheetView is inspired by this repo: [Telegram Messenger for iOS](htt
 
 ![image](http://photo-coder.b0.upaiyun.com/img/HHAttachmentSheetView.gif)
 
-for more details: [hirain](blog.hirain.win)
+for more details: [hirain](http://blog.hirain.win)
 
 ## Feature
 
@@ -69,7 +69,7 @@ for more details: [hirain](blog.hirain.win)
 ## Support
 
 * If you have any questions, please [Issues](https://github.com/red3/HHAttachmentSheetView/issues/new)  me, thank you. :) 
-* Blog: [hirain](blog.hirain.win)
+* Blog: [hirain](http://blog.hirain.win)
 * Buy me a cup of coffee? 👇
 
 <p align="left" >
