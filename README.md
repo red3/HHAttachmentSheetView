@@ -15,7 +15,7 @@ for more details: [hirain](blog.hirain.win)
 ## How To Use 
 ```Objective-C
 
- NSMutableArray *items = [[NSMutableArray alloc] initWithCapacity:5];
+	 NSMutableArray *items = [[NSMutableArray alloc] initWithCapacity:5];
     
     [items addObject:[[HHAttachmentSheetButtonItemView alloc] initWithTitle:@"ChoosePhoto" pressed:^ {
         NSLog(@"choose photo");
