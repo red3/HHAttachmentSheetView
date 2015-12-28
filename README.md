@@ -4,14 +4,18 @@ HHAttachmentSheetView is inspired by this repo: [Telegram Messenger for iOS](htt
 
 ![image](http://photo-coder.b0.upaiyun.com/img/HHAttachmentSheetView.gif)
 
-for more details: [hirain](blog.hirain.win)
+for more details: [hirain](http://blog.hirain.win)
 
 ## Feature
 
-## How To Use 
-```
+* Swipe to dismiss.
+* Support to using the `UI_APPEARANCE_SELECTOR` to customize the appearance. 
+* Support both the iPhone and iPad, and also support both the portrait mode and landscape mode.
 
- NSMutableArray *items = [[NSMutableArray alloc] initWithCapacity:5];
+## How To Use 
+```Objective-C
+
+	 NSMutableArray *items = [[NSMutableArray alloc] initWithCapacity:5];
     
     [items addObject:[[HHAttachmentSheetButtonItemView alloc] initWithTitle:@"ChoosePhoto" pressed:^ {
         NSLog(@"choose photo");
@@ -47,7 +51,7 @@ for more details: [hirain](blog.hirain.win)
 
 ## TODO
 
-* support for Cocoapod
+* Support for Cocoapod
 
 
 
@@ -64,14 +68,16 @@ for more details: [hirain](blog.hirain.win)
 
 ## Support
 
-* if you have any questions, please [Issues](https://github.com/red3/HHAttachmentSheetView/issues/new)  me, thank you. :) 
-* Blog: [hirain](blog.hirain.win)
-* buy me a cup of coffee? 👇
+* If you have any questions, please [Issues](https://github.com/red3/HHAttachmentSheetView/issues/new)  me, thank you. :) 
+* Blog: [hirain](http://blog.hirain.win)
+* Buy me a cup of coffee? 👇
 
-![Alipay](http://photo-coder.b0.upaiyun.com/img/alipay.png)
+<p align="left" >
+<img src="http://photo-coder.b0.upaiyun.com/img/alipay.png" width="276" height="360"/>
+</p>
 
 
 
 ## License
+`HHAttachmentSheetView ` is available under the MIT license. See the [LICENSE](http://opensource.org/licenses/MIT) file for more info.
 
-[MIT license](http://opensource.org/licenses/MIT)
