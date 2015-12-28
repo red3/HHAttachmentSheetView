@@ -12,7 +12,18 @@ for more details: [hirain](http://blog.hirain.win)
 * Support to using the `UI_APPEARANCE_SELECTOR` to customize the appearance. 
 * Support both the iPhone and iPad, and also support both the portrait mode and landscape mode.
 
-## How To Use 
+## Requirements
+
+* Xcode7 or higher
+* iOS 6.0 or higher
+* ARC
+* Objective-C
+
+## Demo
+
+Open and run the Demo project in Xcode to see HHAttachmentSheetView in action
+
+## Example usage 
 ```Objective-C
 
 	 NSMutableArray *items = [[NSMutableArray alloc] initWithCapacity:5];
