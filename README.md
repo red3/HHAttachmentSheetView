@@ -1,5 +1,10 @@
 ## HHAttachmentSheetView
 
+
+[![Version](https://img.shields.io/cocoapods/v/HHAttachmentSheetView.svg?style=flat)](http://cocoapods.org/pods/HHAttachmentSheetView)
+[![License](https://img.shields.io/cocoapods/l/HHAttachmentSheetView.svg?style=flat)](http://cocoapods.org/pods/HHAttachmentSheetView)
+[![Platform](https://img.shields.io/cocoapods/p/HHAttachmentSheetView.svg?style=flat)](http://cocoapods.org/pods/HHAttachmentSheetView)
+
 HHAttachmentSheetView is inspired by this repo: [Telegram Messenger for iOS](https://github.com/peter-iakovlev/Telegram).
 
 ![image](http://photo-coder.b0.upaiyun.com/img/HHAttachmentSheetView.gif)
@@ -18,6 +23,18 @@ for more details: [hirain](http://blog.hirain.win)
 * iOS 6.0 or higher
 * ARC
 * Objective-C
+
+## Installation
+
+### Cocoapods
+
+```ruby
+pod "HHAttachmentSheetView"
+``` 
+
+### Manual
+
+Add `HHAttachmentSheetView` folder into your project.
 
 ## Demo
 
@@ -62,18 +79,17 @@ Open and run the Demo project in Xcode to see HHAttachmentSheetView in action
 
 ## TODO
 
-* Support for Cocoapod
+* Add more customized item sample like `HHAttachmentSheetButtonItemView `
 
 
+## Update Logs
 
-## 2015.12.23 Update Logs (Tag: 1.0.0)
+### 2015.12.29 (Tag: 1.0.0)
+* Support for cocoapod
+
+### 2015.12.23 
 
 * first commit
-
-
-## Tips
-
-* 
 
 
 
