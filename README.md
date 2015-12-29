@@ -1,6 +1,6 @@
 ## HHAttachmentSheetView
 
-
+[![travis CI](https://img.shields.io/travis/red3/HHAttachmentSheetView/master.svg)](http://cocoapods.org/pods/HHAttachmentSheetView)
 [![Version](https://img.shields.io/cocoapods/v/HHAttachmentSheetView.svg?style=flat)](http://cocoapods.org/pods/HHAttachmentSheetView)
 [![License](https://img.shields.io/cocoapods/l/HHAttachmentSheetView.svg?style=flat)](http://cocoapods.org/pods/HHAttachmentSheetView)
 [![Platform](https://img.shields.io/cocoapods/p/HHAttachmentSheetView.svg?style=flat)](http://cocoapods.org/pods/HHAttachmentSheetView)
@@ -9,7 +9,7 @@ HHAttachmentSheetView is inspired by this repo: [Telegram Messenger for iOS](htt
 
 ![image](http://photo-coder.b0.upaiyun.com/img/HHAttachmentSheetView.gif)
 
-for more details: [hirain](http://blog.hirain.win)
+For more details: [blog.coderhr.com](http://blog.coderhr.com)
 
 ## Feature
 
