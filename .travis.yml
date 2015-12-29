@@ -2,3 +2,4 @@ language: objective-c
 xcode_project: HHAttachmentSheetViewDemo.xcodeproj # HHAttachmentSheetViewDemo
 xcode_scheme: HHAttachmentSheetViewDemo
 osx_image: xcode7
+xcode_sdk: iphonesimulator9.0
