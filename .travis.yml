@@ -1,5 +1,25 @@
 language: objective-c
-xcode_project: HHAttachmentSheetViewDemo/HHAttachmentSheetViewDemo.xcodeproj 
-xcode_scheme: HHAttachmentSheetViewDemo
 osx_image: xcode7
+xcode_project: HHAttachmentSheetViewDemo.xcodeproj
+xcode_scheme: HHAttachmentSheetViewDemo
 xcode_sdk: iphonesimulator9.0
+env:
+  global:
+  - FRAMEWORK_NAME=<HHAttachmentSheet>
+before_install:
+- brew update
+- brew install carthage
+before_script:
+- carthage bootstrap
+before_deploy:
+- carthage build --no-skip-current
+- carthage archive $FRAMEWORK_NAME
+deploy:
+  provider: releases
+  api_key:
+    secure: T73wDYPdF5zwvbCTXilSqfMAaK1vOhOSZv7p4QfbA8QWTyCVMj9Rb1U9PizML1ifW7p2x6iTEAdnwLnWnXaaibqXiFFTJjh6tn0m597b8W/2ZP0P0rU93pO5jp5MT5u7WwSUEcgnUHRbE/v46/VHsYWtoQdJx7+F7mAO9rYhItWU8CygHiBFVuHnx530LUy9Kn7XmBn4yWgzlKyW6XCMCJtzecAL97DHz3cPwrFy/BAimORv2m0umVuT4yymojQV4ajXgLzCCvzjrO/UwK3P9gmR//9tAwMLPlWkj4yxhGUFlHC1qu6D3NaDF3zl/DDBnlKnV7trYbc9MYvP82jGPbE2H1h+gFGpuf8Z8upJPQyHwey+n3CdoS1BtvYDa1RRq7qwqdrMIEmw+KYlpuVDNmKjMkTFTJvO2S6QnNJqJajgAr9GNWJLiObe/jR25gGIsJLJXPqXoWKb/ManCAoTm4qnJ+1EuNviMkP4qCF052YLhvBV84uwmU0PIngp+s9eEgWOeeZYiwm9yfBCM+eF43g818zyPTNmyDqT0XtxNrJ8gca/G+Hy/oLgvjDcC+MpS1Ni0mF/AfchGQMc1wdtji50ClXB/TgZoboTdz2xLtXs66Hxe8RukmlK0DkZh7P2jZOXwITApQntEKHCnnt9i0aDcAaG7HQCjv04IuWDoLs=
+  file: HHAttachmentSheet.framework.zip
+  skip_cleanup: true
+  tags: true
+  on:
+    repo: red3/HHAttachmentSheetView

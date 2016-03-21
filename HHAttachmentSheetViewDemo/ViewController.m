@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "HHAttachmentSheetView.h"
+// #import "HHAttachmentSheetView.h"
+#import <HHAttachmentSheet/HHAttachmentSheet.h>
 
 @interface ViewController ()
 
