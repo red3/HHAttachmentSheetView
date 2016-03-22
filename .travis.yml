@@ -13,7 +13,7 @@ before_script:
 # - carthage bootstrap
 before_deploy:
 - carthage build --no-skip-current
-- carthage archive $FRAMEWORK_NAME
+- carthage archive HHAttachmentSheet
 deploy:
   provider: releases
   api_key:
