@@ -8,7 +8,7 @@ env:
   - FRAMEWORK_NAME=<HHAttachmentSheet>
 before_install:
 - brew update
-- brew install carthage
+# - brew install carthage
 before_script:
 # - carthage bootstrap
 before_deploy:
