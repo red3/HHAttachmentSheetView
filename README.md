@@ -27,7 +27,7 @@ For more details: [blog.coderhr.com](http://blog.coderhr.com)
 
 ## Installation
 
-### Cocoapods
+### CocoaPods
 
 ```ruby
 pod "HHAttachmentSheetView"
