@@ -44,7 +44,7 @@ $ brew install carthage
 To integrate HHAttachmentSheetView into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ``` ogdl
-github "red3/HHAttachmentSheetView" ~> 1.1.0
+github "red3/HHAttachmentSheetView" ~> 1.2.0
 ```
 
 Then, run the following command to build the HHAttachmentSheetView framework:
