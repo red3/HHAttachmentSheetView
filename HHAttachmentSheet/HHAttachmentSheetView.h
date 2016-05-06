@@ -9,8 +9,6 @@
 
 #import <UIKit/UIKit.h>
 #import "HHAttachmentSheetItemView.h"
-#import "HHAttachmentSheetButtonItemView.h"
-
 
 @interface HHAttachmentSheetView : UIView
 
