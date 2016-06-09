@@ -85,6 +85,9 @@
     _items = items;
     
     for (HHAttachmentSheetItemView *itemView in items) {
+        if (itemView.isHidden) {
+            continue;
+        }
         UIView *separatorView = [[UIView alloc] init];
         separatorView.backgroundColor = [UIColor blueColor];
         if (itemView == items.lastObject) {
@@ -125,6 +128,11 @@
     CGFloat separatorHeight = HHIsRetina() ? 0.5f : 1.0f;
     CGFloat containerHeight = 0.0f;
     for (HHAttachmentSheetItemView *itemView in _items)  {
+        
+        if (itemView.isHidden) {
+            continue;
+        }
+        
         if (itemView == _items.lastObject)  {
             containerHeight -= separatorHeight;
             
@@ -295,12 +303,10 @@
                        updates:(void (^)(void))updates
                     completion:(void (^)(void))completion {
     
-    if (updates == nil) {
-        return;
-    }
-    
     void (^updatesBlock)(void) = ^ {
-        updates();
+        if (updates != nil) {
+            updates();
+        }
         [self updateLayout];
         
         if (stickToBottom) {
@@ -322,7 +328,6 @@
         if (completion != nil)
             completion();
     }
-
 }
 
 @end

@@ -24,5 +24,4 @@
 - (CGFloat)preferredHeight;
 - (BOOL)wantsFullSeparator;
 
-
 @end

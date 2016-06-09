@@ -58,6 +58,25 @@
     _bottomSeparatorView.hidden = !showsBottomSeparator;
 }
 
+- (void)setHidden:(BOOL)hidden animated:(BOOL)animated {
+    void (^changeBlock)(void) = ^ {
+        self.alpha = hidden ? 0.0f : 1.0f;
+    };
+    
+    void (^completionBlock)(BOOL) = ^(BOOL finished) {
+        if (finished) {
+            self.userInteractionEnabled = !hidden;
+        }
+    };
+    
+    if (animated) {
+        [UIView animateWithDuration:0.18 animations:changeBlock completion:completionBlock];
+    } else {
+        changeBlock();
+        completionBlock(true);
+    }
+}
+
 - (void)layoutSubviews
 {
     [super layoutSubviews];
