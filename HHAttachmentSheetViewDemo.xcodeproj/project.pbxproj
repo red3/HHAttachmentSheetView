@@ -16,18 +16,22 @@
 		49784B2D1C2A712A00598592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49784B2C1C2A712A00598592 /* Assets.xcassets */; };
 		49784B301C2A712A00598592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49784B2E1C2A712A00598592 /* LaunchScreen.storyboard */; };
 		49A6A05C1D09334B00545282 /* HHAutofoldedItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A05B1D09334B00545282 /* HHAutofoldedItemView.m */; };
+		49A6A06C1D099BB900545282 /* HHAttachmentSheetButtonItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0641D099BB900545282 /* HHAttachmentSheetButtonItemView.m */; };
+		49A6A06D1D099BB900545282 /* HHAttachmentSheetItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0661D099BB900545282 /* HHAttachmentSheetItemView.m */; };
+		49A6A06E1D099BB900545282 /* HHAttachmentSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0681D099BB900545282 /* HHAttachmentSheetView.m */; };
+		49A6A06F1D099BB900545282 /* HHAttachmentSheetWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A06B1D099BB900545282 /* HHAttachmentSheetWindow.m */; };
+		49A6A0701D09A15500545282 /* HHAttachmentSheetButtonItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A0631D099BB900545282 /* HHAttachmentSheetButtonItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A6A0711D09A15500545282 /* HHAttachmentSheetButtonItemView.m in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A0641D099BB900545282 /* HHAttachmentSheetButtonItemView.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A6A0721D09A15500545282 /* HHAttachmentSheetItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A0651D099BB900545282 /* HHAttachmentSheetItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A6A0731D09A15500545282 /* HHAttachmentSheetItemView.m in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A0661D099BB900545282 /* HHAttachmentSheetItemView.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A6A0741D09A15500545282 /* HHAttachmentSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A0671D099BB900545282 /* HHAttachmentSheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A6A0751D09A15500545282 /* HHAttachmentSheetView.m in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A0681D099BB900545282 /* HHAttachmentSheetView.m */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A6A0761D09A15500545282 /* HHAttachmentSheetViewDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A0691D099BB900545282 /* HHAttachmentSheetViewDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A6A0771D09A15500545282 /* HHAttachmentSheetWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A06A1D099BB900545282 /* HHAttachmentSheetWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A6A0781D09A15500545282 /* HHAttachmentSheetWindow.m in Headers */ = {isa = PBXBuildFile; fileRef = 49A6A06B1D099BB900545282 /* HHAttachmentSheetWindow.m */; settings = {ATTRIBUTES = (Public, ); }; };
 		49C2662C1CDC8B2700439413 /* HHAttachmentSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C2662A1CDC8B2700439413 /* HHAttachmentSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49C63B9C1C9FED52004339BF /* HHAttachmentSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C63B951C9FED52004339BF /* HHAttachmentSheet.framework */; };
 		49C63B9D1C9FED52004339BF /* HHAttachmentSheet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49C63B951C9FED52004339BF /* HHAttachmentSheet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		49C63BAB1C9FEDDA004339BF /* HHAttachmentSheetButtonItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C63BA21C9FEDDA004339BF /* HHAttachmentSheetButtonItemView.m */; };
-		49C63BAD1C9FEDDA004339BF /* HHAttachmentSheetItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C63BA41C9FEDDA004339BF /* HHAttachmentSheetItemView.m */; };
-		49C63BAF1C9FEDDA004339BF /* HHAttachmentSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C63BA61C9FEDDA004339BF /* HHAttachmentSheetView.m */; };
-		49C63BB21C9FEDDA004339BF /* HHAttachmentSheetWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C63BA91C9FEDDA004339BF /* HHAttachmentSheetWindow.m */; };
-		49C63BB31C9FF343004339BF /* HHAttachmentSheetButtonItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C63BA11C9FEDDA004339BF /* HHAttachmentSheetButtonItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49C63BB41C9FF343004339BF /* HHAttachmentSheetItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C63BA31C9FEDDA004339BF /* HHAttachmentSheetItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49C63BB51C9FF343004339BF /* HHAttachmentSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C63BA51C9FEDDA004339BF /* HHAttachmentSheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49C63BB61C9FF343004339BF /* HHAttachmentSheetViewDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C63BA71C9FEDDA004339BF /* HHAttachmentSheetViewDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49C63BB71C9FF343004339BF /* HHAttachmentSheetWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C63BA81C9FEDDA004339BF /* HHAttachmentSheetWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,18 +73,19 @@
 		49784B311C2A712A00598592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49A6A05A1D09334B00545282 /* HHAutofoldedItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAutofoldedItemView.h; sourceTree = "<group>"; };
 		49A6A05B1D09334B00545282 /* HHAutofoldedItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAutofoldedItemView.m; sourceTree = "<group>"; };
+		49A6A0621D099BB900545282 /* HHAttachmentSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheet.h; sourceTree = "<group>"; };
+		49A6A0631D099BB900545282 /* HHAttachmentSheetButtonItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetButtonItemView.h; sourceTree = "<group>"; };
+		49A6A0641D099BB900545282 /* HHAttachmentSheetButtonItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentSheetButtonItemView.m; sourceTree = "<group>"; };
+		49A6A0651D099BB900545282 /* HHAttachmentSheetItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetItemView.h; sourceTree = "<group>"; };
+		49A6A0661D099BB900545282 /* HHAttachmentSheetItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentSheetItemView.m; sourceTree = "<group>"; };
+		49A6A0671D099BB900545282 /* HHAttachmentSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetView.h; sourceTree = "<group>"; };
+		49A6A0681D099BB900545282 /* HHAttachmentSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentSheetView.m; sourceTree = "<group>"; };
+		49A6A0691D099BB900545282 /* HHAttachmentSheetViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetViewDefine.h; sourceTree = "<group>"; };
+		49A6A06A1D099BB900545282 /* HHAttachmentSheetWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetWindow.h; sourceTree = "<group>"; };
+		49A6A06B1D099BB900545282 /* HHAttachmentSheetWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentSheetWindow.m; sourceTree = "<group>"; };
 		49C2662A1CDC8B2700439413 /* HHAttachmentSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheet.h; sourceTree = "<group>"; };
 		49C2662B1CDC8B2700439413 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49C63B951C9FED52004339BF /* HHAttachmentSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHAttachmentSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49C63BA11C9FEDDA004339BF /* HHAttachmentSheetButtonItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetButtonItemView.h; sourceTree = "<group>"; };
-		49C63BA21C9FEDDA004339BF /* HHAttachmentSheetButtonItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentSheetButtonItemView.m; sourceTree = "<group>"; };
-		49C63BA31C9FEDDA004339BF /* HHAttachmentSheetItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetItemView.h; sourceTree = "<group>"; };
-		49C63BA41C9FEDDA004339BF /* HHAttachmentSheetItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentSheetItemView.m; sourceTree = "<group>"; };
-		49C63BA51C9FEDDA004339BF /* HHAttachmentSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetView.h; sourceTree = "<group>"; };
-		49C63BA61C9FEDDA004339BF /* HHAttachmentSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentSheetView.m; sourceTree = "<group>"; };
-		49C63BA71C9FEDDA004339BF /* HHAttachmentSheetViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetViewDefine.h; sourceTree = "<group>"; };
-		49C63BA81C9FEDDA004339BF /* HHAttachmentSheetWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheetWindow.h; sourceTree = "<group>"; };
-		49C63BA91C9FEDDA004339BF /* HHAttachmentSheetWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentSheetWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +112,9 @@
 		49784B141C2A712A00598592 = {
 			isa = PBXGroup;
 			children = (
+				49A6A0611D099BB900545282 /* HHAttachmentSheetView */,
 				49C266291CDC8B2700439413 /* Framework */,
 				49784B1F1C2A712A00598592 /* HHAttachmentSheetViewDemo */,
-				49C63B961C9FED52004339BF /* HHAttachmentSheet */,
 				49784B1E1C2A712A00598592 /* Products */,
 				49C63B7D1C9FEA81004339BF /* Frameworks */,
 			);
@@ -150,6 +155,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		49A6A0611D099BB900545282 /* HHAttachmentSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				49A6A0621D099BB900545282 /* HHAttachmentSheet.h */,
+				49A6A0631D099BB900545282 /* HHAttachmentSheetButtonItemView.h */,
+				49A6A0641D099BB900545282 /* HHAttachmentSheetButtonItemView.m */,
+				49A6A0651D099BB900545282 /* HHAttachmentSheetItemView.h */,
+				49A6A0661D099BB900545282 /* HHAttachmentSheetItemView.m */,
+				49A6A0671D099BB900545282 /* HHAttachmentSheetView.h */,
+				49A6A0681D099BB900545282 /* HHAttachmentSheetView.m */,
+				49A6A0691D099BB900545282 /* HHAttachmentSheetViewDefine.h */,
+				49A6A06A1D099BB900545282 /* HHAttachmentSheetWindow.h */,
+				49A6A06B1D099BB900545282 /* HHAttachmentSheetWindow.m */,
+			);
+			path = HHAttachmentSheetView;
+			sourceTree = "<group>";
+		};
 		49C266291CDC8B2700439413 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,22 +190,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		49C63B961C9FED52004339BF /* HHAttachmentSheet */ = {
-			isa = PBXGroup;
-			children = (
-				49C63BA11C9FEDDA004339BF /* HHAttachmentSheetButtonItemView.h */,
-				49C63BA21C9FEDDA004339BF /* HHAttachmentSheetButtonItemView.m */,
-				49C63BA31C9FEDDA004339BF /* HHAttachmentSheetItemView.h */,
-				49C63BA41C9FEDDA004339BF /* HHAttachmentSheetItemView.m */,
-				49C63BA51C9FEDDA004339BF /* HHAttachmentSheetView.h */,
-				49C63BA61C9FEDDA004339BF /* HHAttachmentSheetView.m */,
-				49C63BA71C9FEDDA004339BF /* HHAttachmentSheetViewDefine.h */,
-				49C63BA81C9FEDDA004339BF /* HHAttachmentSheetWindow.h */,
-				49C63BA91C9FEDDA004339BF /* HHAttachmentSheetWindow.m */,
-			);
-			path = HHAttachmentSheet;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -192,11 +198,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C2662C1CDC8B2700439413 /* HHAttachmentSheet.h in Headers */,
-				49C63BB31C9FF343004339BF /* HHAttachmentSheetButtonItemView.h in Headers */,
-				49C63BB41C9FF343004339BF /* HHAttachmentSheetItemView.h in Headers */,
-				49C63BB51C9FF343004339BF /* HHAttachmentSheetView.h in Headers */,
-				49C63BB61C9FF343004339BF /* HHAttachmentSheetViewDefine.h in Headers */,
-				49C63BB71C9FF343004339BF /* HHAttachmentSheetWindow.h in Headers */,
+				49A6A0701D09A15500545282 /* HHAttachmentSheetButtonItemView.h in Headers */,
+				49A6A0711D09A15500545282 /* HHAttachmentSheetButtonItemView.m in Headers */,
+				49A6A0721D09A15500545282 /* HHAttachmentSheetItemView.h in Headers */,
+				49A6A0731D09A15500545282 /* HHAttachmentSheetItemView.m in Headers */,
+				49A6A0741D09A15500545282 /* HHAttachmentSheetView.h in Headers */,
+				49A6A0751D09A15500545282 /* HHAttachmentSheetView.m in Headers */,
+				49A6A0761D09A15500545282 /* HHAttachmentSheetViewDefine.h in Headers */,
+				49A6A0771D09A15500545282 /* HHAttachmentSheetWindow.h in Headers */,
+				49A6A0781D09A15500545282 /* HHAttachmentSheetWindow.m in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +313,12 @@
 			files = (
 				49784B281C2A712A00598592 /* ViewController.m in Sources */,
 				49784B251C2A712A00598592 /* AppDelegate.m in Sources */,
+				49A6A06D1D099BB900545282 /* HHAttachmentSheetItemView.m in Sources */,
 				49A6A05C1D09334B00545282 /* HHAutofoldedItemView.m in Sources */,
+				49A6A06C1D099BB900545282 /* HHAttachmentSheetButtonItemView.m in Sources */,
 				49784B221C2A712A00598592 /* main.m in Sources */,
+				49A6A06F1D099BB900545282 /* HHAttachmentSheetWindow.m in Sources */,
+				49A6A06E1D099BB900545282 /* HHAttachmentSheetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,10 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C63BAF1C9FEDDA004339BF /* HHAttachmentSheetView.m in Sources */,
-				49C63BAD1C9FEDDA004339BF /* HHAttachmentSheetItemView.m in Sources */,
-				49C63BB21C9FEDDA004339BF /* HHAttachmentSheetWindow.m in Sources */,
-				49C63BAB1C9FEDDA004339BF /* HHAttachmentSheetButtonItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
