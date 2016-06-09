@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "HHAttachmentSheetView"
-  spec.version      = "1.3.0"
+  spec.version      = "1.4.0"
   spec.authors      = { "Herui" => "heruicross@gmail.com" }
   spec.homepage     = "https://github.com/red3/HHAttachmentSheetView"
   spec.summary      = "A lightweight, easy to use, attachment actionSheetView"
