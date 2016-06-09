@@ -19,4 +19,16 @@
 - (void)showWithAnimate:(BOOL)animate completion:(void (^)())completion;
 - (void)hideWithAnimate:(BOOL)animate completion:(void (^)())completion;
 
+
+- (void)performAnimated:(bool)animated updates:(void (^)(void))updates stickToBottom:(bool)stickToBottom completion:(void (^)(void))completion;
+
+- (void)reloadItemsWithAnimate:(BOOL)animate
+                       updates:(void (^)(void))updates
+                    completion:(void (^)(void))completion;
+
+- (void)reloadItemsWithAnimate:(BOOL)animate
+                 stickToBottom:(BOOL)stickToBottom
+                       updates:(void (^)(void))updates
+                    completion:(void (^)(void))completion;
+
 @end

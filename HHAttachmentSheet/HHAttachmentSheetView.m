@@ -282,4 +282,47 @@
     [self moveOutWithVelocity:0 forInterchange:NO animate:animate completion:completion];
 }
 
+- (void)reloadItemsWithAnimate:(BOOL)animate
+                       updates:(void (^)(void))updates
+                    completion:(void (^)(void))completion {
+    
+    [self reloadItemsWithAnimate:animate stickToBottom:NO updates:updates completion:completion];
+    
+}
+
+- (void)reloadItemsWithAnimate:(BOOL)animate
+                 stickToBottom:(BOOL)stickToBottom
+                       updates:(void (^)(void))updates
+                    completion:(void (^)(void))completion {
+    
+    if (updates == nil) {
+        return;
+    }
+    
+    void (^updatesBlock)(void) = ^ {
+        updates();
+        [self updateLayout];
+        
+        if (stickToBottom) {
+            _scrollView.contentOffset = CGPointMake(0, _scrollView.contentSize.height - _scrollView.bounds.size.height);
+        }
+    };
+    
+    if (animate) {
+        [UIView animateWithDuration:0.3f
+                              delay:0.0f
+                            options:(7 << 16) | UIViewAnimationOptionLayoutSubviews animations:updatesBlock
+                         completion:^(__unused BOOL finished) {
+                             if (completion != nil)
+                                 completion();
+                         }];
+    } else {
+        updatesBlock();
+        
+        if (completion != nil)
+            completion();
+    }
+
+}
+
 @end
