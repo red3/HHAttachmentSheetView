@@ -124,11 +124,18 @@ Open and run the `HHAttachmentSheetViewDemo.xcodeproj` in Xcode to see HHAttachm
 
 ## Update Logs
 
+### 2016.06.09 (Tag: 1.3.0)
+* Support for `reloadItems`method to update the items with animation.
+
+### 2016.05.06 (Tag: 1.2.0)
+
+* Add new `HHAttachmentSheet.h` file to support for Manual install.
+
 ### 2016.03.21 (Tag: 1.1.0)
 * Support for Carthage
 
 ### 2015.12.29 (Tag: 1.0.0)
-* Support for cocoapod
+* Support for CocoaPods
 
 ### 2015.12.23 
 
