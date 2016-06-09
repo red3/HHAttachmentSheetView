@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import <HHAttachmentSheet/HHAttachmentSheet.h>
+#import "HHAutofoldedItemView.h"
+
 
 @interface ViewController ()
 
@@ -22,6 +24,11 @@
 - (IBAction)buttonDidClicked:(UIButton *)sender {
     NSMutableArray *items = [[NSMutableArray alloc] initWithCapacity:5];
     
+    HHAutofoldedItemView *autofoldedItem = [[HHAutofoldedItemView alloc] initWithTitle:@"Autofolded" pressed:nil];
+    
+    autofoldedItem.autoHideWhenPressed = NO;
+    [items addObject:autofoldedItem];
+    
     [items addObject:[[HHAttachmentSheetButtonItemView alloc] initWithTitle:@"ChoosePhoto" pressed:^ {
         NSLog(@"choose photo");
         
@@ -30,10 +37,7 @@
         NSLog(@"choose viedo");
         
     }]];
-    [items addObject:[[HHAttachmentSheetButtonItemView alloc] initWithTitle:@"SearchPhoto" pressed:^ {
-        NSLog(@"search photo");
-        
-    }]];
+   
     HHAttachmentSheetButtonItemView *deleteItem = [[HHAttachmentSheetButtonItemView alloc] initWithTitle:@"DeletePhoto" pressed:^{
         NSLog(@"delete photo");
     }];
@@ -50,6 +54,27 @@
     [sheetView showWithAnimate:YES completion:^{
         NSLog(@"show complete");
     }];
+    
+    __weak HHAutofoldedItemView *weakAutofoldedItem = autofoldedItem;
+    __weak HHAttachmentSheetView *weakSheetView = sheetView;
+
+
+    
+   
+    autofoldedItem.pressed = ^ {
+        
+        __strong HHAttachmentSheetView *strongSheetView = weakSheetView;
+        __strong HHAutofoldedItemView *strongAutofoldedItem = weakAutofoldedItem;
+        strongAutofoldedItem.folded = !strongAutofoldedItem.folded;
+        
+        for (HHAttachmentSheetItemView *itemView in strongSheetView.items) {
+            if (itemView != strongAutofoldedItem && itemView != strongSheetView.items.lastObject) {
+                itemView.hidden = strongAutofoldedItem.folded;
+            }
+        }
+        [strongSheetView reloadItemsWithAnimate:YES updates:nil completion:nil];
+        
+    };
     
 }
 

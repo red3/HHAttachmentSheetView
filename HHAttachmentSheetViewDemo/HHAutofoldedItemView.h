@@ -6,8 +6,10 @@
 //  Copyright © 2016 hirain. All rights reserved.
 //
 
-#import <HHAttachmentSheet/HHAttachmentSheet.h>
+#import <HHAttachmentSheet/HHAttachmentSheetButtonItemView.h>
 
-@interface HHAutofoldedItemView : HHAttachmentSheetItemView
+@interface HHAutofoldedItemView : HHAttachmentSheetButtonItemView
+
+@property (nonatomic) BOOL folded;
 
 @end

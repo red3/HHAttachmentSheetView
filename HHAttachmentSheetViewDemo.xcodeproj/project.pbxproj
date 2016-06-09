@@ -15,6 +15,7 @@
 		49784B2B1C2A712A00598592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49784B291C2A712A00598592 /* Main.storyboard */; };
 		49784B2D1C2A712A00598592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49784B2C1C2A712A00598592 /* Assets.xcassets */; };
 		49784B301C2A712A00598592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49784B2E1C2A712A00598592 /* LaunchScreen.storyboard */; };
+		49A6A05C1D09334B00545282 /* HHAutofoldedItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A05B1D09334B00545282 /* HHAutofoldedItemView.m */; };
 		49C2662C1CDC8B2700439413 /* HHAttachmentSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C2662A1CDC8B2700439413 /* HHAttachmentSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49C63B9C1C9FED52004339BF /* HHAttachmentSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C63B951C9FED52004339BF /* HHAttachmentSheet.framework */; };
 		49C63B9D1C9FED52004339BF /* HHAttachmentSheet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49C63B951C9FED52004339BF /* HHAttachmentSheet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -66,6 +67,8 @@
 		49784B2C1C2A712A00598592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49784B2F1C2A712A00598592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49784B311C2A712A00598592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A6A05A1D09334B00545282 /* HHAutofoldedItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAutofoldedItemView.h; sourceTree = "<group>"; };
+		49A6A05B1D09334B00545282 /* HHAutofoldedItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAutofoldedItemView.m; sourceTree = "<group>"; };
 		49C2662A1CDC8B2700439413 /* HHAttachmentSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentSheet.h; sourceTree = "<group>"; };
 		49C2662B1CDC8B2700439413 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49C63B951C9FED52004339BF /* HHAttachmentSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HHAttachmentSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +131,8 @@
 				49784B241C2A712A00598592 /* AppDelegate.m */,
 				49784B261C2A712A00598592 /* ViewController.h */,
 				49784B271C2A712A00598592 /* ViewController.m */,
+				49A6A05A1D09334B00545282 /* HHAutofoldedItemView.h */,
+				49A6A05B1D09334B00545282 /* HHAutofoldedItemView.m */,
 				49784B291C2A712A00598592 /* Main.storyboard */,
 				49784B2C1C2A712A00598592 /* Assets.xcassets */,
 				49784B2E1C2A712A00598592 /* LaunchScreen.storyboard */,
@@ -298,6 +303,7 @@
 			files = (
 				49784B281C2A712A00598592 /* ViewController.m in Sources */,
 				49784B251C2A712A00598592 /* AppDelegate.m in Sources */,
+				49A6A05C1D09334B00545282 /* HHAutofoldedItemView.m in Sources */,
 				49784B221C2A712A00598592 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
