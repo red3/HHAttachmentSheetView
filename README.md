@@ -8,7 +8,10 @@
 
 HHAttachmentSheetView is inspired by this repo: [Telegram Messenger for iOS](https://github.com/peter-iakovlev/Telegram).
 
-![image](http://photo-coder.b0.upaiyun.com/img/HHAttachmentSheetView.gif)
+Want you to know that you can inherited from `HHAttachmentSheetItemView` to customized your own item. Blow is a sample item named `HHAssetsCarouselItemView` which enables you to pick a assets in your Photo Library like Messages app, please visit this [REPO](https://github.com/red3/HHAssetsCarouselItemView) to see more detail about how to use this item.
+
+
+![image](http://photo-coder.b0.upaiyun.com/img/HHAttachmentSheetView.gif) ![image](https://raw.githubusercontent.com/red3/HHAssetsCarouselItemView/master/preview01.gif)
 
 For more details: [blog.coderhr.com](http://blog.coderhr.com)
 
@@ -16,6 +19,7 @@ For more details: [blog.coderhr.com](http://blog.coderhr.com)
 
 * Swipe to dismiss.
 * Support to using the `UI_APPEARANCE_SELECTOR` to customize the appearance. 
+* Allow customized item just inherited from `HHAttachmentSheetItemView`
 * Support both the iPhone and iPad, and also support both the portrait mode and landscape mode.
 
 ## Requirements
@@ -124,6 +128,9 @@ Open and run the `HHAttachmentSheetViewDemo.xcodeproj` in Xcode to see HHAttachm
 
 ## Update Logs
 
+### 2016.06.11 
+* Add customized item [HHAssetsCarouselItemView](https://github.com/red3/HHAssetsCarouselItemView), follow this repo to see more details.
+
 ### 2016.06.09 (Tag: 1.4.0)
 
 * Support for `reloadItems`method to update the items with animation.
@@ -158,4 +165,3 @@ Open and run the `HHAttachmentSheetViewDemo.xcodeproj` in Xcode to see HHAttachm
 
 ## License
 `HHAttachmentSheetView ` is available under the MIT license. See the [LICENSE](http://opensource.org/licenses/MIT) file for more info.
-
